@@ -77,13 +77,14 @@ More info on RE2: https://github.com/google/re2/wiki/Syntax
 | phpass | 400 |
 
 ### Compile from source:
+- If you want the latest features, compiling from source is the best option since the release version may run several revisions behind the source code.
 - This assumes you have Go and Git installed
   - `git clone https://github.com/cyclone-github/regx.git`
   - `cd regx`
   - `go mod init regx`
   - `go mod tidy`
-  - `go build .`
-- More info on compiling from source:
+  - `go build -ldflags="-s -w" .`
+- Compile from source code how-to:
   - https://github.com/cyclone-github/scripts/blob/main/intro_to_go.txt
 
 ### Change Log:
