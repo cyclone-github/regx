@@ -4,7 +4,7 @@
 *Pronounced "Reg-X" as in Regex eXtractor*
 
 ### Why use RegX instead of grep, ripgrep, etc?
-Unlike general-purpose tools like grep or ripgrep, RegX offers a more nuanced approach that was developmented specifically for parsing hashcat potfiles that contain multiple hash algo's. While this can be done with grep, compiling and testing regular expressions, especially for more complex hashes, can be cumbersom and error prone. See examples below.
+Unlike general-purpose tools like grep or ripgrep, RegX offers a more nuanced approach that was developed specifically for parsing hashcat potfiles that contain multiple hash algo's. While this can be done with grep, compiling and testing regular expressions, especially for more complex hashes, can be cumbersome and error prone. See examples below.
 
 ### RegX vs grep (egrep):
 
