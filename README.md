@@ -1,3 +1,4 @@
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cyclone-github&repo=regx&theme=gruvbox)](https://github.com/cyclone-github/)
 # RegX
 *A Flexible Potfile Parsing Tool*
 
