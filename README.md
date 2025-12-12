@@ -1,4 +1,4 @@
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=cyclone-github&repo=regx&theme=gruvbox)](https://github.com/cyclone-github/)
+[![Readme Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=cyclone-github&repo=regx&theme=gruvbox)](https://github.com/cyclone-github/)
 # RegX
 *A Flexible Potfile Parsing Tool*
 
@@ -76,6 +76,15 @@ More info on RE2: https://github.com/google/re2/wiki/Syntax
 | sha512crypt | 1800 |
 | md5crypt | 500 |
 | phpass | 400 |
+
+### Install latest release:
+```
+go install github.com/cyclone-github/regx@latest
+```
+### Install from latest source code (bleeding edge):
+```
+go install github.com/cyclone-github/regx@main
+```
 
 ### Compile from source:
 - If you want the latest features, compiling from source is the best option since the release version may run several revisions behind the source code.
